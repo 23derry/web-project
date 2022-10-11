@@ -1,0 +1,104 @@
+body{background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fwhite-texture-background&psig=AOvVaw1Vr6tehDfLzmH2y5GSQjF2&ust=1665587563447000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMiTmbC72PoCFQAAAAAdAAAAABAD);}
+    
+
+.title{display: flex;
+flex-direction: column;
+justify-content:flex-start;
+align-content: flex-start;
+}
+
+.title{border: 0px whitesmoke solid;
+    padding: 3px;
+    margin: 3px;
+  text-align:top;
+  max-width: 75%;
+  position: fixed
+  
+
+;
+}
+
+.title-1{align-self: flex-start;
+font-size:200%;
+font-weight: 500;
+margin-left: 5px;
+margin-top: -5px;
+font-family: 'Alkalami', serif;
+color: rgb(95, 4, 4);
+/* font-family: 'Signika', sans-serif; */
+}
+
+.sub-title{font-size: 110%;
+     /* font-weight: 500; */
+margin-left:-3px; 
+margin-top:-28px;
+margin-bottom: -9px;
+font-family: 'Kaushan Script', cursive,  cursive;
+
+}
+
+.sub-title{color: rgb(3, 36, 23);
+    /* background:linear-gradient(to left,
+    rgb(95, 4, 4) 90%, rgb(95, 4, 4)30%) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+     */
+}
+
+#span{margin-left: 7px;
+      margin-top: 17px;}
+
+
+
+/* our item starts here */
+
+.item{display: flex;
+      flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    
+    
+    height: 1.2em;
+ }
+
+    .item{margin: 50px 40px 10px 10px;
+    font-size: 110%; 
+    font-family: 'Signika', sans-serif, sans-serif; 
+  color: rgba(95, 4, 4, 0.6) ;}
+
+    .item-1{
+       border: px rgb(31, 156, 94) solid;
+       background-color: rgba(8, 85, 14, 0.8) ;
+       width: 70%;  }
+
+       .item-2{ margin-top: -30px; ;
+     
+      margin-left: 10px; padding:4px ;
+    
+      
+    }
+       
+       .item-3{margin-top: -30px;width: 30%;
+        margin-left: 3px; padding: 4px;}
+
+
+        /* border line starts here */
+        .line-1{border: 1px rgb(5, 5, 5) solid;
+        margin: 6px; margin-top: 15px;}
+        /* borderline ends here */
+          
+        /* container starts here */
+
+        .container{display:inline-flex;}
+
+    .container{margin: 3px; background-color: black;
+    justify-content: start; align-content: center;
+  width: 100%;}
+
+    .contian{color: white; align-content: center;
+      margin: 10px; margin-left: 30px; padding: 1;
+      font-family: 'Signika', sans-serif, sans-serif; 
+      position:sticky;
+    }
+     
