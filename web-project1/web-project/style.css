@@ -90,15 +90,17 @@ font-family: 'Kaushan Script', cursive,  cursive;
           
         /* container starts here */
 
-        .container{display:inline-flex;}
+        .container{display:flex;}
 
     .container{margin: 3px; background-color: black;
-    justify-content: start; align-content: center;
-  width: 100%;}
+    justify-content: start; align-content: center;position: relative;
+ max-width: 100%;
+overflow: scroll;}
 
     .contian{color: white; align-content: center;
       margin: 10px; margin-left: 30px; padding: 1;
       font-family: 'Signika', sans-serif, sans-serif; 
-      position:sticky;
+      position:relative;
+      
     }
      
